@@ -23,11 +23,29 @@
 
 .divider {
     &--mrfp {
-        // background-color: ;
+        padding: 0;
         text-align: center;
+        .selected {
+            .button {
+                color: #aaa;
+                &:hover {
+                    cursor: default;
+                    background-color: transparent;
+                }
+            }
+        }
     }
 }
 
 .center {
     text-align: center;
+}
+
+.b-us-map {
+    .state {
+        stroke: #fff;
+    }
+    .m-pilot {
+        fill: $mrfp-blue;
+    }
 }
