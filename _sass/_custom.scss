@@ -72,6 +72,19 @@
     }
 }
 
+// .b-question-answer {
+//     dt {
+//         font-size: 1rem;
+//     }
+// }
+
+.q-and-a {
+    dt {
+        margin: 30px 0;
+        font-size: 1.1rem;
+    }
+}
+
 @media (max-width: 600px) {
     .top-section {
         h1 {

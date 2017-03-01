@@ -1,11 +1,23 @@
 $(document).ready(function () {
+
+    function toggleNode($elem) {
+        $elem.toggleClass('m-active');
+        $elem.next('dd').toggleClass('m-active');
+    }
+    $('#rfi-qa dt').click(function (e) {
+        toggleNode($(this));
+
+        // redo scrollpoints
+        // getScrollPoints();
+    });
+
     // Smooth Scrolling Function
     $('a[href*=#]:not([href=#])').click(function () {
         var $targ = $(this.hash),
-            host1 = this.hostname,
-            host2 = location.hostname,
-            path1 = this.pathname.replace(/^\//, ''),
-            path2 = location.pathname.replace(/^\//, '');
+        host1 = this.hostname,
+        host2 = location.hostname,
+        path1 = this.pathname.replace(/^\//, ''),
+        path2 = location.pathname.replace(/^\//, '');
 
         if (!$targ.length) {
             $targ = $('[name=' + this.hash.slice(1) + ']');
@@ -37,7 +49,7 @@ $(document).ready(function () {
 
     function lockscroll(){
       $(window).scrollTop(currentScroll);
-    }
+  }
     // Modal Click Behavior
     $('.js-open-modal').click(function () {
         $(this).parent().find('.js-target-modal').addClass('js-active');
@@ -50,7 +62,7 @@ $(document).ready(function () {
     // Prevent default on footer close
     $('footer .js-close-modal').on('click', function(e) {
       e.preventDefault();
-    });
+  });
 
     $('body').on("click", '.js-close-modal', function () {
         currentScroll=$(window).scrollTop();
@@ -103,12 +115,12 @@ $(document).ready(function () {
         autoplay: true,
         autoplaySpeed: 3000,
         responsive: [
-            {
-                breakpoint: 800,
-                settings: {
-                    draggable: true
-                }
+        {
+            breakpoint: 800,
+            settings: {
+                draggable: true
             }
+        }
         ]
     });
 
