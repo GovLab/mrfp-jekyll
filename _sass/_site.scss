@@ -497,8 +497,8 @@ $sm-mobile-only: max-width 600px;
                 top: 12;
                 border-right: $diagonal-size + 2 solid transparent;
                 border-bottom: $diagonal-size + 2 solid transparent;
-                border-top: $diagonal-size + 2 solid $mrfp-l-yellow;
-                border-left: $diagonal-size + 2 solid $mrfp-l-yellow;
+                border-top: $diagonal-size + 2 solid #fff;
+                border-left: $diagonal-size + 2 solid #fff;
             }
             &::after {
                 position: absolute;
@@ -514,7 +514,7 @@ $sm-mobile-only: max-width 600px;
             &:nth-child(3) { background-color: $mrfp-timeline-2; }
             &:nth-child(4) { background-color: $mrfp-timeline-3; }
             &:nth-child(5) { background-color: $mrfp-timeline-4; }
-            &:nth-child(1)::after { border-left: $diagonal-size solid $mrfp-l-yellow; border-top: $diagonal-size solid $mrfp-l-yellow; }
+            &:nth-child(1)::after { border-left: $diagonal-size solid #fff; border-top: $diagonal-size solid #fff; }
             &:nth-child(2)::after { border-left: $diagonal-size solid $mrfp-timeline-0; border-top: $diagonal-size solid $mrfp-timeline-0; }
             &:nth-child(3)::after { border-left: $diagonal-size solid $mrfp-timeline-1; border-top: $diagonal-size solid $mrfp-timeline-1; }
             &:nth-child(4)::after { border-left: $diagonal-size solid $mrfp-timeline-2; border-top: $diagonal-size solid $mrfp-timeline-2; }
