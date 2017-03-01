@@ -49,3 +49,9 @@
         fill: $mrfp-blue;
     }
 }
+
+@media (max-width: 600px) {
+    ul.b-contact {
+        padding-left: 0;
+    }
+}
