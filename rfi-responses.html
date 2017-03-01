@@ -1,100 +1,138 @@
-{% extends '_base.html' %}
-{% block main %}
-<div class="b-pagination-indicator m-yellow">
+---
+layout: default
+---
+
+<div class="top-section top-section--black">
+    <h1>Multistate Registration and Filing Portal</h1>
+    <h3>The Single Portal Initiative</h3>
 </div>
 
-
-<div class="b-page-section m-yellow m-extra-padding">
-   <div class="row">
-    <div class="large-3 columns m-side-heading">
-        <h1>Responses<span class="linebreak"><br></span> to the RFI</h1>
-    </div>
-
-    <div class="large-8 columns end m-text-large">
-
-        <div class="e-card">
-                <div class="e-card-inner m-yellow">
-                    <p class="e-card-name">Affinity</p>
-                    <p class="e-card-description"><a href="./files/rfi-response-affinity.pdf" class="b-button">Download PDF</a></p>
-                </div>
+<div class="divider divider--mrfp">
+    <div class="row">
+        <div class="column large-2">
+            <a class="button button--naked" href="{{site.url}}{{site.baseurl}}/">Home</a>
         </div>
-
-        <div class="e-card">
-                <div class="e-card-inner m-yellow">
-                    <p class="e-card-name">Capstone Strategy Group</p>
-                    <p class="e-card-description"><a href="./files/rfi-response-capstone-strategy-group.pdf" class="b-button">Download PDF</a></p>
-                </div>
+        <div class="column large-2">
+            <a class="button button--naked" href="about.html">About</a>
         </div>
-
-
-        <div class="e-card">
-                <div class="e-card-inner m-yellow">
-                    <p class="e-card-name">Council on Foundations</p>
-                    <p class="e-card-description"><a href="./files/rfi-response-council-on-foundations.pdf" class="b-button">Download PDF</a></p>
-                </div>
+        <div class="column large-2">
+            <a class="button button--naked" href="people.html">People</a>
         </div>
-
-
-        <div class="e-card">
-                <div class="e-card-inner m-yellow">
-                    <p class="e-card-name">Department of Better Technology</p>
-                    <p class="e-card-description"><a href="./files/rfi-response-department-of-better-technology.pdf" class="b-button">Download PDF</a></p>
-                </div>
+        <div class="column large-2 selected">
+            <a class="button button--naked">RFI</a>
         </div>
-
-        <div class="e-card">
-                <div class="e-card-inner m-yellow">
-                    <p class="e-card-name">DonationXChange</p>
-                    <p class="e-card-description"><a href="./files/rfi-response-donationxchange.pdf" class="b-button">Download PDF</a></p>
-                </div>
+        <div class="column large-2">
+            <a class="button button--naked" href="{{site.url}}{{site.baseurl}}/#contact">Contact</a>
         </div>
-        
-
-        <div class="e-card">
-                <div class="e-card-inner m-yellow">
-                    <p class="e-card-name">GuideStar & Simple Charity Registration</p>
-                    <p class="e-card-description"><a href="./files/rfi-response-guidestar-simple-charity-registration.pdf" class="b-button">Download PDF</a></p>
-                </div>
+        <div class="column large-2">
+            <a class="button button--naked" href="blog.html">Blog</a>
         </div>
-
-        <div class="e-card">
-                <div class="e-card-inner m-yellow">
-                    <p class="e-card-name">Hawaii Information Consortium</p>
-                    <p class="e-card-description"><a href="./files/rfi-response-hawaii-information-consortium.pdf" class="b-button">Download PDF</a></p>
-                </div>
-        </div>
-
-        <div class="e-card">
-                <div class="e-card-inner m-yellow">
-                    <p class="e-card-name">IRIS</p>
-                    <p class="e-card-description"><a href="./files/rfi-response-iris.pdf" class="b-button">Download PDF</a></p>
-                </div>
-        </div>
-
-
-        <div class="e-card">
-                <div class="e-card-inner m-yellow">
-                    <p class="e-card-name">OurRecords</p>
-                    <p class="e-card-description"><a href="./files/rfi-response-ourrecords.pdf" class="b-button">Download PDF</a></p>
-                </div>
-        </div>
-        <div class="e-card">
-                <div class="e-card-inner m-yellow">
-                    <p class="e-card-name">Tecuity</p>
-                    <p class="e-card-description"><a href="./files/rfi-response-tecuity.pdf" class="b-button">Download PDF</a></p>
-                </div>
-        </div>
-
-
-        <div class="e-card">
-                <div class="e-card-inner m-yellow">
-                    <p class="e-card-name">VisionLink</p>
-                    <p class="e-card-description"><a href="./files/rfi-response-visionlink.pdf" class="b-button">Download PDF</a></p>
-                </div>
-        </div>
-
-      </div>
     </div>
 </div>
 
-{% endblock %}
+<div class="page-section">
+    <div class="row">
+        <div class="medium-10 medium-offset-1 columns rfi-responses">
+            <h4>Responses to the RFI</h4>
+
+            <div class="row">
+                <div class="column small-4">
+                    <p>Affinity</p>
+                </div>
+                <div class="column small-8 align-right">
+                    <a href="./files/rfi-response-affinity.pdf" class="button">Download PDF <i class="material-icons">file_download</i></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column small-4">
+                    <p>Capstone Strategy Group</p>
+                </div>
+                <div class="column small-8 align-right">
+                    <a href="./files/rfi-response-capstone-strategy-group.pdf" class="button">Download PDF <i class="material-icons">file_download</i></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column small-4">
+                    <p>Council on Foundations</p>
+                </div>
+                <div class="column small-8 align-right">
+                    <a href="./files/rfi-response-council-on-foundations.pdf" class="button">Download PDF <i class="material-icons">file_download</i></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column small-4">
+                    <p>Department of Better Technology</p>
+                </div>
+                <div class="column small-8 align-right">
+                    <a href="./files/rfi-response-department-of-better-technology.pdf" class="button">Download PDF <i class="material-icons">file_download</i></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column small-4">
+                    <p>DonationXChange</p>
+                </div>
+                <div class="column small-8 align-right">
+                    <a href="./files/rfi-response-donationxchange.pdf" class="button">Download PDF <i class="material-icons">file_download</i></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column small-4">
+                    <p>GuideStar &amp; Simple Charity Registration</p>
+                </div>
+                <div class="column small-8 align-right">
+                    <a href="./files/rfi-response-guidestar-simple-charity-registration.pdf" class="button">Download PDF <i class="material-icons">file_download</i></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column small-4">
+                    <p>Hawaii Information Consortium</p>
+                </div>
+                <div class="column small-8 align-right">
+                    <a href="./files/rfi-response-hawaii-information-consortium.pdf" class="button">Download PDF <i class="material-icons">file_download</i></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column small-4">
+                    <p>IRIS</p>
+                </div>
+                <div class="column small-8 align-right">
+                    <a href="./files/rfi-response-iris.pdf" class="button">Download PDF <i class="material-icons">file_download</i></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column small-4">
+                    <p>OurRecords</p>
+                </div>
+                <div class="column small-8 align-right">
+                    <a href="./files/rfi-response-ourrecords.pdf" class="button">Download PDF <i class="material-icons">file_download</i></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column small-4">
+                    <p>Tecuity</p>
+                </div>
+                <div class="column small-8 align-right">
+                    <a href="./files/rfi-response-tecuity.pdf" class="button">Download PDF <i class="material-icons">file_download</i></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column small-4">
+                    <p>VisionLink</p>
+                </div>
+                <div class="column small-8 align-right">
+                    <a href="./files/rfi-response-visionlink.pdf" class="button">Download PDF <i class="material-icons">file_download</i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="medium-10 medium-offset-1 columns center">
+            <p>&nbsp;</p>
+            <p>
+                <a href="rfi.html" class="button">Back to RFI Information</a>
+            </p>
+            <p>&nbsp;</p>
+        </div>
+    </div>
+</div>
