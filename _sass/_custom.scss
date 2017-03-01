@@ -3,7 +3,7 @@
 
 .top-bar {
     &--black {
-        background-color: #222;
+        background-color: $mrfp-blue;
     }
     &__logo {
         font-weight: bold;
@@ -17,6 +17,17 @@
 
 .top-section {
     &--black {
-        background-color: #222;
+        background-color: $mrfp-blue;
     }
+}
+
+.divider {
+    &--mrfp {
+        // background-color: ;
+        text-align: center;
+    }
+}
+
+.center {
+    text-align: center;
 }

@@ -10,20 +10,44 @@ layout: default
     <h3>The Single Portal Initiative</h3>
 </div>
 
+<div class="divider divider--mrfp">
+    <div class="row">
+        <div class="column large-3">
+            <a class="button button--naked">About</a>
+        </div>
+        <div class="column large-3">
+            <a class="button button--naked">People</a>
+        </div>
+        <div class="column large-3">
+            <a class="button button--naked">RFI</a>
+        </div>
+        <div class="column large-3">
+            <a class="button button--naked">Contact</a>
+        </div>
+    </div>
+</div>
+
 <div class="page-section ">
+    <div class="row">
+        <p>&nbsp;</p>
+    </div>
     <div class="row">
         <div class="column large-6">
             <img src="{{site.url}}{{site.baseurl}}/images/US-map.svg" class="page-graphic" />
         </div>
         <div class="column large-6">
             <p>The Multistate Registration and Filing Portal, Inc. (MRFP), a Delaware nonprofit corporation working with the National Association of State Charities Officials (NASCO), and the National Association of Attorneys General (NAAG), currently represents an initial development group of 13 pilot states that will be expanded after platform launch to include all states that require charitable organizations and their professional fundraisers to register and provide annual filing information (currently 39 states require registration).</p>
+            <p>&nbsp;</p>
             <a href="about.html" class="button"><span>Learn More</span><i class="material-icons">arrow_forward</i></a>
         </div>
+    </div>
+    <div class="row">
+        <p>&nbsp;</p>
     </div>
 </div>
 
 <div class="slider">
-    <section id="slide-id" class="slide slide--teal">
+    <section id="slide-id" class="slide slide--black">
         <header class="row">
             <div class="large-12 column">
                 <h4>Featured Project</h4>
@@ -54,57 +78,40 @@ layout: default
     </section>
 </div>
 
-<div class="b-page-section m-blue m-extra-padding">
+<div class="page-section">
     <div class="row">
-        <div class="large-10 large-offset-1 columns end m-text-large">
+        <div class="large-10 large-offset-1 columns">
             <h2>Responses to Questions</h2>
-            <div class="m-inline-block">
-                <p>On March 15, 2016, MRFP, Inc. hosted an open conference call to provide additional background information about the project and answer any questions from the public. Additionally, interested parties were permitted to submit questions about the RFI in writing until March 16, 2016.</p>
-                <div class="">
-                    <a href="qa.html" class="e-learn-more"><span>View the Responses</span><i class="material-icons">arrow_forward</i></a>
-                </div>
-            </div>
+            <p>On March 15, 2016, MRFP, Inc. hosted an open conference call to provide additional background information about the project and answer any questions from the public. Additionally, interested parties were permitted to submit questions about the RFI in writing until March 16, 2016.</p>
+            <p>&nbsp;</p>
+            <a href="qa.html" class="button"><span>View the Responses</span><i class="material-icons">arrow_forward</i></a>
+            <p>&nbsp;</p>
         </div>
     </div>
 </div>
 
-<div class="b-divider m-purple">
-    <a name="contact"></a>
+<a name="contact"></a>
+<div class="divider">
     <h1>Contact</h1>
 </div>
-<div class="b-page-section m-purple m-contact-section">
+
+<div class="page-section">
     <div class="row">
-        <div class="large-10 large-offset-1 columns end">
-            <form action="//formspree.io/info@mrfpinc.org" method="POST" class="b-form">
-                <div class="row">
-                    <div class="large-6 columns">
-                        <input type="text" id="name" placeholder="Name" name="name"/>
-                        <input type="email" id="mail" placeholder="Email" name="email" required/>
-                        <textarea id="msg" placeholder="Message" rows="4" name="msg" required></textarea>
-                        <input type="hidden" name="_next" value="//govlab.github.io/mrfp/confirmation.html" />
-                        <input type="text" name="_gotcha" style="display:none" />
-                        <div class="e-checkbox">
-                            <input type="checkbox" id="checkbox-2"><label for="checkbox-2">Send me updates about MRFP</label>
-                        </div>
-                        <input type="submit" value="Send">
-                    </div>
-                    <div class="large-6 columns">
-                        <div class="b-email-info">
-                            <h1>Email Us</h1>
-                            <div>
-                                <a href="mailto:info@mrfpinc.org">
-                                    <i class="material-icons">email</i>
-                                </a>
-                            </div>
-                            <div>
-                                <a href="mailto:info@mrfpinc.org">
-                                    <span>info@mrfpinc.org</span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+        <div class="large-6 large-offset-3 columns">
+            <form action="//formspree.io/info@mrfpinc.org" method="POST" class="form">
+                <input type="text" id="name" placeholder="Name" name="name"/>
+                <input type="email" id="mail" placeholder="Email" name="email" required/>
+                <textarea id="msg" placeholder="Message" rows="4" name="msg" required></textarea>
+                <input type="hidden" name="_next" value="//govlab.github.io/mrfp/confirmation.html" />
+                <input type="text" name="_gotcha" style="display:none" />
+                <div class="checkbox">
+                    <input type="checkbox" id="checkbox-2"><label for="checkbox-2">Send me updates about MRFP</label>
                 </div>
-            </form>
-        </div>
+                <input type="submit" value="Send">
+                <p class="center"><em>- or -</em></p>
+                <p class="center">Email us at <a href="mailto:info@mrfpinc.org"><span>info@mrfpinc.org</span></a></p>
+                <p class="center"><a href="mailto:info@mrfpinc.org"><i class="material-icons">email</i></a></p>
+            </div>
+        </form>
     </div>
 </div>
