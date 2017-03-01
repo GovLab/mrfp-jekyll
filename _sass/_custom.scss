@@ -1,0 +1,22 @@
+.page-graphic {
+}
+
+.top-bar {
+    &--black {
+        background-color: #222;
+    }
+    &__logo {
+        font-weight: bold;
+        color: #ccc;
+        &:hover {
+            text-decoration: none;
+            color: #ccc;
+        }
+    }
+}
+
+.top-section {
+    &--black {
+        background-color: #222;
+    }
+}

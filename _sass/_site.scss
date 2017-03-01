@@ -22,17 +22,24 @@ $mrfp-yellow-shade: #f2e48d;
 
 $mrfp-blue-accent: #8caeeb;
 
-// $mrfp-timeline-0: #e0e0e0;
-// $mrfp-timeline-1: #d9d9d9;
-// $mrfp-timeline-2: #cccccc;
-// $mrfp-timeline-3: #bfbfbf;
-// $mrfp-timeline-4: #b3b3b3;
+$mrfp-timeline-0: #e0e0e0;
+$mrfp-timeline-1: #d9d9d9;
+$mrfp-timeline-2: #cccccc;
+$mrfp-timeline-3: #bfbfbf;
+$mrfp-timeline-4: #b3b3b3;
 
-$mrfp-timeline-0: $gray-05;
-$mrfp-timeline-1: $gray-10;
-$mrfp-timeline-2: $gray-20;
-$mrfp-timeline-3: $gray-30;
-$mrfp-timeline-4: $gray-40;
+$gray-05: #e0e0e0;
+$gray-10: #d9d9d9;
+$gray-20: #cccccc;
+$gray-30: #bfbfbf;
+$gray-40: #b3b3b3;
+$gray-50: #b3b3b3;
+$gray-70: #b3b3b3;
+
+$white-40: rgba(255,255,255,0.4);
+$white-70: rgba(255,255,255,0.7);
+
+$black: #222;
 
 .b-top-nav {
     &.m-transparent {
@@ -768,12 +775,12 @@ $sm-mobile-only: max-width 600px;
             .b-button {
                 display: inline;
             }
- 
+
         }
 
     }
 
-        
+
 }
 
 .linebreak {

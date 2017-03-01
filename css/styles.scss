@@ -1,0 +1,45 @@
+---
+---
+
+* { box-sizing: border-box; }
+
+// Breakpoints
+$small-only: (max-width 40em);
+$medium: 40.063em 64em;
+$touch: (max-width 64em);
+$medium-up: 40.063em;
+$large: 64.063em;
+$large-up: (min-width 64.063em);
+
+$mobile-only: 40.063em 64em;
+$desktop: 64.063em;
+
+// Colors
+$main-color: red;
+$orange: orange;
+$blue: blue;
+$purple: purple;
+
+$clinics-color: #efce7c;
+$coaching-color: #22a69b;
+$workshop-color: #366473;
+$masters-color: #f9b26f;
+
+
+@mixin placeholder {
+  &::-webkit-input-placeholder { @content }
+  &:-moz-placeholder { @content }
+  &::-moz-placeholder { @content }
+  &:-ms-input-placeholder { @content }
+}
+
+@mixin transition {
+    -moz-transition:    all 0.2s ease-out;
+    -o-transition:      all 0.2s ease-out;
+    -webkit-transition: all 0.2s ease-out;
+    transition:         all 0.2s ease-out;
+}
+
+@import 'breakpoint';
+@import 'site';
+@import 'custom';
