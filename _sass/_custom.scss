@@ -85,7 +85,44 @@
     }
 }
 
+.blog-side-bar {
+    background-color: $mrfp-blue;
+    padding: 40px 0;
+    a {
+        display: block;
+        color: #fff;
+        padding: 10px 60px;
+        display: block;
+        padding: 10px 60px;
+        color: white;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: .4px;
+        text-align: right;
+        text-decoration: none;
+        &:hover {
+            background-color: lighten($mrfp-blue, 20);
+        }
+    }
+}
+
+.blog-main {
+    .row {
+        margin: 60px 0;
+    }
+    h4 {
+        margin: 0;
+        text-transform: none;
+    }
+    .date {
+        font-weight: bold;
+    }
+}
+
 @media (max-width: 600px) {
+    .blog-side-bar {
+        display: none;
+    }
     .top-section {
         h1 {
             font-size: 2.5rem;
