@@ -27,6 +27,7 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+  - node_modules
 
 contentful:
   spaces:
