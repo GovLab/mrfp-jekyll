@@ -138,7 +138,15 @@
     }
 }
 
+.slider { &--main-page { .slide { min-height: 350px; } } }
+
+@media (max-width: 900px) {
+    .slider { &--main-page { .slide { min-height: 450px; } } }
+}
+
 @media (max-width: 600px) {
+    .slider { &--main-page { .slide { min-height: 550px; } } }
+
     .blog-side-bar {
         display: none;
     }
