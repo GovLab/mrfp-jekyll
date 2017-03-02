@@ -31,18 +31,25 @@ layout: default
 </div>
 
 <div class="row expanded">
-    <div class="large-2 small-12 columns blog-side-bar">
-        <a href="#">Title</a>
+    <div class="large-3 small-12 columns blog-side-bar">
+        {% for post in site.data.contentful.spaces.blog.blog %}
+        <a href="{{site.url}}{{site.baseurl}}/blog/{{post.postTitle | slugify}}.html">{{post.postTitle}}</a>
+        {% endfor %}
     </div>
-    <div class="large-10 small-12 columns blog-main">
+    <div class="large-9 small-12 columns blog-main">
 
-        <div class="row align-center">
+
+        {% for post in site.data.contentful.spaces.blog.blog %}
+        <div class="row expanded align-center post">
             <div class="large-10 small-12 columns blog-main">
-                <h4>Title</h4>
-                <p class="date">10/10/10</p>
-                <p>On February 17, 2016, MRFP, Inc. issued a Request for Information (RFI) seeking input from vendors, government officials, technology and public policy professionals and anyone else with knowledge of platforms, processes, tools and/or methods to simplify the completion and submission of forms—including the submissions of relevant data— and to allow charitable organizations and their professional fundraisers to comply with all states’ registration and annual filing requirements through a unified “one-stop” solution. The RFI remained open for public comment until April 8, 2016.</p>
+                <h2><a href="{{site.url}}{{site.baseurl}}/blog/{{post.postTitle | slugify}}.html">{{post.postTitle}}</a></h2>
+                <p class="meta"><a class="date" href="{{site.url}}{{site.baseurl}}/blog/{{post.postTitle | slugify}}.html">{{ post.publishDate | date: '%B %d, %Y' }}</a> by {% for a in post.postAuthor %}{{a}}{% unless forloop.last == true %}, {% endunless %}{% endfor %}</p>
+                <div class="">
+                    {{post.postContent | markdownify}}
+                </div>
             </div>
         </div>
+        {% endfor %}
 
     </div>
 </div>

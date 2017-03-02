@@ -91,12 +91,11 @@
     a {
         display: block;
         color: #fff;
-        padding: 10px 60px;
+        padding: 20px 60px;
         display: block;
-        padding: 10px 60px;
         color: white;
         font-weight: 500;
-        text-transform: uppercase;
+        // text-transform: uppercase;
         letter-spacing: .4px;
         text-align: right;
         text-decoration: none;
@@ -107,15 +106,35 @@
 }
 
 .blog-main {
-    .row {
-        margin: 60px 0;
+    padding: 0;
+    .post {
+        padding: 60px 0;
+        &:nth-child(even) {
+            background-color: rgba(0,0,0,0.05);
+        }
     }
-    h4 {
+    h2 {
+        font-weight: bold;
+        font-size: 2rem;
+        text-align: center;
         margin: 0;
         text-transform: none;
     }
-    .date {
-        font-weight: bold;
+    a {
+        text-decoration: none;
+        color: $mrfp-blue;
+        .date {
+        }
+        &:hover {
+            color: lighten($mrfp-blue, 20);
+        }
+    }
+    .meta {
+        text-align: center;
+        opacity: 0.5;
+    }
+    .post {
+        // padding: 0 60px;
     }
 }
 

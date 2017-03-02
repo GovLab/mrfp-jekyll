@@ -32,3 +32,21 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+
+contentful:
+  spaces:
+    - blog:
+        space: fqco6rg0qskl
+        access_token: 9b128137587b700dde6e67d355e7ced9cdc24acd339f421c45edc9c55b41df79
+        base_path: .
+        all_entries: true
+        cda_query:
+          include: 10
+          limit: 1000
+
+page_gen:
+  - data: contentful.spaces.blog.blog
+    template: blog_post
+    name: postTitle
+    dir: blog
+    extension: html
