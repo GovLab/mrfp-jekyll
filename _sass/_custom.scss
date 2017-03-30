@@ -7,17 +7,29 @@
     }
     &__logo {
         font-weight: bold;
-        color: #ccc;
+        color: #fff;
+        transition: color 0.2s ease-out;
         &:hover {
             text-decoration: none;
-            color: #ccc;
+            color: #ddd;
+            transition: color 0.2s ease-out;
         }
     }
+    &--transparent {
+        background-color: transparent;
+    }
+    position: absolute;
+    top: 0;
+    width: 100%;
 }
 
 .top-section {
-    &--black {
-        background-color: $mrfp-blue;
+    &--green { background-color: $mrfp-green; }
+    &--yellow { background-color: $mrfp-yellow; }
+    &--purple { background-color: $mrfp-purple; }
+    &--black { background-color: $mrfp-blue; }
+    h3 {
+        font-weight: 400;
     }
 }
 
@@ -86,7 +98,7 @@
 }
 
 .blog-side-bar {
-    background-color: $mrfp-blue;
+    background-color: $mrfp-purple;
     padding: 40px 0;
     a {
         display: block;
@@ -100,7 +112,7 @@
         text-align: right;
         text-decoration: none;
         &:hover {
-            background-color: lighten($mrfp-blue, 20);
+            background-color: lighten($mrfp-purple, 20);
         }
     }
 }
@@ -121,12 +133,13 @@
         text-transform: none;
     }
     a {
+        font-weight: bold;
         text-decoration: none;
-        color: $mrfp-blue;
+        color: $mrfp-purple;
         .date {
         }
         &:hover {
-            color: lighten($mrfp-blue, 20);
+            color: lighten($mrfp-purple, 20);
         }
     }
     .meta {
@@ -135,6 +148,7 @@
     }
     .post {
         // padding: 0 60px;
+        margin: 0;
     }
 }
 
