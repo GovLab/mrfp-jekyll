@@ -98,7 +98,7 @@
 }
 
 .blog-side-bar {
-    background-color: $mrfp-purple;
+    background-color: $mrfp-blue;
     padding: 40px 0;
     a {
         display: block;
@@ -112,7 +112,7 @@
         text-align: right;
         text-decoration: none;
         &:hover {
-            background-color: lighten($mrfp-purple, 20);
+            background-color: lighten($mrfp-blue, 20);
         }
     }
 }
@@ -133,13 +133,13 @@
         text-transform: none;
     }
     a {
-        font-weight: bold;
+        // font-weight: bold;
         text-decoration: none;
-        color: $mrfp-purple;
+        color: $mrfp-blue;
         .date {
         }
         &:hover {
-            color: lighten($mrfp-purple, 20);
+            color: lighten($mrfp-blue, 20);
         }
     }
     .meta {
