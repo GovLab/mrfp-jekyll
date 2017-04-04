@@ -4,31 +4,171 @@ blog:
     id: 3XZs8JIVpmKmOeM44u6sMi
   postTitle: Continued Progress Towards a Single Portal
   postAuthor:
-  - Chris Cash
-  - Karen Gano
-  - Christopher Wong
-  publishDate: !ruby/object:DateTime 2017-03-01 00:00:00.000000000 -05:00
+  - Brent Culberson
+  - Tania Ibanez
+  publishDate: !ruby/object:DateTime 2017-02-21 00:00:00.000000000 -05:00
   postContent: |-
-    MRFP continues to make great progress in the selection process towards the final vendor who will be tasked to build the portal. MRFP reviewed vendor demonstrations in 2016 and obtained additional discovery from finalists beginning in January, 2017.  The RFI committee is currently evaluating the finalists.  An announcement regarding the selected vendor will be made by the board after final decisions and contract negotiations are complete.
+    MRFP continues to make great progress in the selection process towards the final vendor who will be tasked to build the portal. MRFP reviewed vendor demonstrations in 2016 and obtained additional discovery from finalists beginning in January, 2017. The RFI committee is currently evaluating the finalists. An announcement regarding the selected vendor will be made by the board after final decisions and contract negotiations are complete.
 
-    The current evaluation period follows an initial RFI from February 2016 seeking input from vendors, government officials, technology and public policy professionals and anyone else with knowledge of platforms, processes, tools and/or methods to simplify the completion and submission of forms—including the submissions of relevant data— and to allow charitable organizations and their professional fundraisers to comply with all states’ registration and annual filing requirements through a unified “one-stop” solution. The RFI remained open for public comment until April 8, 2016.  Responses to the RFI can be viewed here.
+    The current evaluation period follows an [initial RFI](http://mrfpinc.org/rfi.html) from February 2016 seeking input from vendors, government officials, technology and public policy professionals and anyone else with knowledge of platforms, processes, tools and/or methods to simplify the completion and submission of forms—including the submissions of relevant data— and to allow charitable organizations and their professional fundraisers to comply with all states’ registration and annual filing requirements through a unified “one-stop” solution. The RFI remained open for public comment until April 8, 2016. Responses to the RFI can be viewed [here](http://mrfpinc.org/rfi-responses.html).
 - sys:
     id: 3x3dLFVvx6iA6sgyOuKQKi
   postTitle: New Advisory Committee Members
   postAuthor:
   - Brent Culberson
-  publishDate: !ruby/object:DateTime 2017-02-28 00:00:00.000000000 -05:00
+  - Tania Ibanez
+  publishDate: !ruby/object:DateTime 2017-01-17 00:00:00.000000000 -05:00
   postContent: |-
     In January, the MRFP Board invited four new members to join the Single Portal Advisory Committee:  Christopher Daggett, Ben Getson, Robert Forrester, and Brent Culberson.
 
-    Christopher Daggett and Ben Getson previously served as White House Presidential Innovation Fellows, working with the IRS to reegineer the business process of Form 990 processing, to enable the publishing of electronic nonprofit tax returns online in a machine-readable format. Christopher also worked with the IRS to launch its first crowdsourcing initiative.
+    __Christopher Daggett__ and __Ben Getson__ previously served as White House Presidential Innovation Fellows, working with the IRS to reegineer the business process of Form 990 processing, to enable the publishing of electronic nonprofit tax returns online in a machine-readable format. Christopher also worked with the IRS to launch its first crowdsourcing initiative.
 
     Prior to serving as a PIF, Christopher was the VP of ideas42, a behavioral economics lab spun out of Harvard IQSS, where he worked on projects in consumer finance, health, and tax, as well as led the development of proprietary behavioral design methodologies. He serves on the Board of the Action Design Network, and is also a mentor for Blue Startups, a top 20 accelerator in the US, based in Honolulu, where he assists entrepreneurs with behavioral design, and mobile app design and strategy.
 
     Ben is a product and technology specialist. Prior to the IRS, Ben was a product management lead at LivingSocial and technology lead at Capitalogix Trading. Ben has worked as a mentor to the startup communities at 1776 in DC and the American Underground in North Carolina. He is now the Director of Product & Technology with the Commerce Data Service within the US Department of Commerce.
 
-    Robert Forrester is President and CEO of Newman’s Own Foundation.  Newman’s Own Foundation is one of the funders for the development of the Single Portal system.  Bob’s 40+ year career has been devoted to philanthropy and support of the global non-governmental/nonprofit sector. A close friend of Paul Newman’s, he was asked by Paul to become the first president of Newman’s Own Foundation when it was created in 2005.  Newman’s Own Foundation provided grant funding for the development and launch of MRFP’s Single Portal Multistate Registration system.
+    __Robert Forrester__ is President and CEO of Newman’s Own Foundation.  Newman’s Own Foundation is one of the funders for the development of the Single Portal system.  Bob’s 40+ year career has been devoted to philanthropy and support of the global non-governmental/nonprofit sector. A close friend of Paul Newman’s, he was asked by Paul to become the first president of Newman’s Own Foundation when it was created in 2005.  Newman’s Own Foundation provided grant funding for the development and launch of MRFP’s Single Portal Multistate Registration system.
 
-    Brent Culberson was one of the founding directors of MRFP, Inc. during his tenure at the Tennessee Secretary of State’s Office.  Brent left the Secretary of State’s Office last October to develop a new program at his alma mater, Lipscomb University.  As the Director the Office of Neighborhood, Community and Government Relations Brent’s work involves developing and managing the university strategy for cultivating relationships with our neighbors near our campus and other locations throughout the area; to assist university officials in understanding and finding opportunities to serve the community; to stay abreast of state, local and federal higher education policies that could impact the university; to build relationships with government leaders at all levels; and to work with development in securing more funds for research and other programs.
+    __Brent Culberson__ was one of the founding directors of MRFP, Inc. during his tenure at the Tennessee Secretary of State’s Office.  Brent left the Secretary of State’s Office last October to develop a new program at his alma mater, Lipscomb University.  As the Director the Office of Neighborhood, Community and Government Relations Brent’s work involves developing and managing the university strategy for cultivating relationships with our neighbors near our campus and other locations throughout the area; to assist university officials in understanding and finding opportunities to serve the community; to stay abreast of state, local and federal higher education policies that could impact the university; to build relationships with government leaders at all levels; and to work with development in securing more funds for research and other programs.
 
-    The Single Portal Advisory Committee (SPAC) is comprised of individuals across the nonprofit and regulatory sector.  Advisory Committee members present observations and make suggestions on behalf of representative constituencies who benefit from, or are subject to and have knowledge of state charities registrations policies, programs and procedures, and the value of open data related to charities and charitable solicitations.  To improve efficiency and to ensure the practical application of the single portal, Committee Members play an important role in advising the board of MRFP.  SPAC meets quarterly, with the most recent meetings taking place on October 17, 2016, and in January 17, 2017.   Learn more about the Advisory Committee
+    The Single Portal Advisory Committee (SPAC) is comprised of individuals across the nonprofit and regulatory sector.  Advisory Committee members present observations and make suggestions on behalf of representative constituencies who benefit from, or are subject to and have knowledge of state charities registrations policies, programs and procedures, and the value of open data related to charities and charitable solicitations.  To improve efficiency and to ensure the practical application of the single portal, Committee Members play an important role in advising the board of MRFP.  SPAC meets quarterly, with the most recent meetings taking place on October 17, 2016, and in January 17, 2017. [Learn more about the Advisory Committee](http://mrfpinc.org/people.html)
+- sys:
+    id: 4WsgshlSiA4ImUSOQegKAy
+  postTitle: Launching the Single Portal Initiative
+  postAuthor:
+  - Brent Culberson
+  publishDate: !ruby/object:DateTime 2016-01-16 00:00:00.000000000 -05:00
+  postContent: Thank you for your interest in the Multistate Registration and Filing
+    Portal (MRFP, Inc.). This website will be the online resource regarding the latest
+    information about the project, including participating pilot states, advisory
+    council members and the forthcoming Request for Information, as well as other
+    updates about the project.
+  tags:
+  - Updates
+- sys:
+    id: 2azVS13ipiYiKgmcsKEUkm
+  postTitle: MRFP in National Council of Nonprofits Blog
+  postAuthor:
+  - Brent Culberson
+  publishDate: !ruby/object:DateTime 2016-02-11 00:00:00.000000000 -05:00
+  postContent: |-
+    Recently, the National Council of Nonprofits featured an overview of the Single Portal filing project on its Blog and encouraged members to offer feedback.  On the need for a single portal:
+
+    *[S]tate laws are not uniform; they differ widely on what triggers registration and what information must be filed. The current process amounts to solving a crossword puzzle of conflicting state laws. For instance, the mere act of sending a fundraising email or text message across state lines could activate registration requirements in some states, whereas other states don’t require registration until a threshold amount is contributed from donors in their state. Complicating matters is that most state laws are built on frameworks written around “old” technologies pre-dating the development of mobile giving.*
+
+    *Recognizing these challenges, a group of state charity regulators started working several years ago on the Single Portal Multi-State Registration project to make it easier for nonprofits to register for fundraising activities in multiple states. Those state charity regulators are committed to launching a beta test site before the end of 2016. To make that happen, many of the state charity regulators currently are in the process of developing a set of common questions that will be asked on the registration forms so the information can be submitted once for use by all participating states, rather than entered separately on different and sometimes conflicting state forms. – See more at: [https://www.councilofnonprofits.org/thought-leadership/new-developments-the-single-portal-multi-state-charitable-registration-project#sthash.rUJXhO9P.dpuf](https://www.councilofnonprofits.org/thought-leadership/new-developments-the-single-portal-multi-state-charitable-registration-project#sthash.rUJXhO9P.dpuf)*
+
+    To read more, visit [Council of Nonprofits Blog Post](https://www.councilofnonprofits.org/thought-leadership/new-developments-the-single-portal-multi-state-charitable-registration-project).
+  tags:
+  - Press
+- sys:
+    id: 5dNi1I6kRyGQqsie22myuY
+  postTitle: MRFP RFI in Nonprofit Law Prof Blog
+  postAuthor:
+  - Brent Culberson
+  publishDate: !ruby/object:DateTime 2016-02-29 00:00:00.000000000 -05:00
+  postContent: |-
+    The announcement of the MRFP Request for Information was met with enthusiasm in a blog post on the Nonprofit Law Prof Blog:
+
+    *If you’ve ever been involved in helping  a charity comply with the various state solicitation registration requirements, then somewhere between swearing and tearing your hair out I’m sure you thought, “There has to be a better way!”  Shake your fist at the sky in despair no more!   It is with unbounded joy that I share part of a note I received from Bob Carlson of the Missouri Attorney’s General Office, who has been actively involved for some time with NAAG and NASCO’s efforts to develop a simplified filing process.*
+
+    *[...]*
+
+    *Seriously awesome work,  Bob and everyone involved with this process.   I am sure I speak for lots of folks when I say that we can’t wait to see this become a reality!*
+
+    Read the article [Pigs, Get Ready to Fly – The Multistate Registration Filing Portal Steps Closer to Becoming Reality](http://lawprofessors.typepad.com/nonprofit/2016/02/pigs-get-ready-to-fly-the-multistate-registration-filing-portal-steps-closer-to-becoming-reality-.html).
+- sys:
+    id: 6v6KfAnB5YKAe48c8AGSEu
+  postTitle: UPDATE RFI Questions Posted with MRFP Inc. Responses
+  postAuthor:
+  - Brent Culberson
+  publishDate: !ruby/object:DateTime 2016-04-06 00:00:00.000000000 -05:00
+  postContent: |-
+    On March 15, MRFP, Inc. hosted an open conference call to provide additional background information about the project and answer any questions from the public. Additionally, interested parties were permitted to submit questions about the RFI in writing until March 16.
+
+    The responses to questions posed during the conference call and via email have now been posted and are available online (as well as for download) at [mrfpinc.org/qa.html](http://mrfpinc.org/qa.html). Because the original response date of March 23 was adjusted to April 1, the Request for Information (RFI) deadline has also been adjusted to stay open an additional week. Responses to the RFI are now due on or before Friday, April 8, 2016.
+
+    If you have any questions, please email us at info@mrfpinc.org.
+- sys:
+    id: 5S5urfdYmAoYOieegcoeoM
+  postTitle: Council on Foundations Comments on RFI
+  postAuthor:
+  - Brent Culberson
+  publishDate: !ruby/object:DateTime 2016-04-06 12:00:00.000000000 -05:00
+  postContent: "Recently, the Council on Foundations submitted a letter in response
+    to the RFI.  A copy of the letter is available at [http://www.cof.org/news/council-comments-multistate-registration-filing-project](http://www.cof.org/news/council-comments-multistate-registration-filing-project).\n\nIn
+    the letter, the Council welcomed the development of the Single Portal Initiative,
+    saying that\n\n*the Council believes a single online portal to accomplish the
+    aforementioned requirements will indeed maximize efficiency, data transparency,
+    and information sharing for charities in a way that is less burdensome, but will
+    still allow states to act to protect or regulate the charitable environment.*\n\n*…*\n\n*The
+    Council congratulates the stakeholders who are moving this important initiative
+    forward. We have been part of talks regarding this issue for several years, and
+    recognize the progress you’ve made to build consensus among numerous states and
+    numerous government agencies.*\n\nWe are greatly appreciative of the Council’s
+    RFI response and their support of this initiative. \n\nThe RFI will remain open
+    until April 8, 2016."
+- sys:
+    id: 2KbRSiolB6ymauscq6MIm6
+  postTitle: MRFP, Inc. Receives Grant from Newman’s Own Foundation
+  postAuthor:
+  - Brent Culberson
+  publishDate: !ruby/object:DateTime 2016-04-06 23:59:00.000000000 -05:00
+  postContent: |-
+    The __Multistate Registration Filing Portal, Inc.__ (MRFP, Inc.), a nonprofit corporation comprised of twelve state charity regulators, has received a $30,000 grant from __Newman’s Own Foundation__ toward initial funding for development, launch and testing of “The Single Portal Initiative.”  MRFP’s Single Portal will be an online system that will allow nonprofit organizations and their professional fundraisers to comply with all states’ registration and annual filing requirements through a single online portal (__“The Single Portal Initiative“__).
+
+    “The one-stop service for charity registration, available through MFRP, will be of great value to the nonprofit sector. It is a very practical and welcome way for the states to work together in facilitating good actions, and Newman’s Own Foundation is pleased to help support this program,” said __Bob Forrester__, President and CEO, Newman’s Own Foundation.
+
+    __Bob Carlson__, President of MRFP, Inc. said, “We appreciate the support of Newman’s Own Foundation and its investment in our work.  The Single Portal Initiative is a great example of how states can collaborate and offer efficient and effective service to the nonprofit sector.  This funding will be the first of many steps in creating a tangible site for charities and fundraisers to register and file annual reports and renewals.”
+
+    A twelve state collaboration among Attorneys General, Secretaries of State and Consumer Protection offices, this effort will establish a single point of registration for nonprofit organizations and their professional fundraisers.  The portal will maximize efficiency, data transparency, and information sharing by enabling compliance with registration requirements for all participating states without duplication of data entry. It will make the collected data available to the public in a searchable and interactive format.
+
+     To learn more about MRFP and The Single Portal Initiative, visit [mrfpinc.org](http://mrfpinc.org/index.html) or email at [info@mrfpinc.org](mailto:info@mrfpinc.org).
+- sys:
+    id: 24SDNhB7O44KQY4QC0QMgy
+  postTitle: MRFP, Inc. Receives $30,000 Grant Commitment from the Charles Stewart
+    Mott Foundation
+  postAuthor:
+  - Brent Culberson
+  publishDate: !ruby/object:DateTime 2016-05-26 00:00:00.000000000 -05:00
+  postContent: |-
+    The __Multistate Registration Filing Portal, Inc. (MRFP, Inc.)__, a nonprofit corporation comprised of twelve state charity regulators, has received a $30,000 grant commitment from the [Charles Stewart Mott Foundation](https://www.mott.org/) toward initial funding for development, launch and testing of “The Single Portal Initiative.”
+
+    “As a funder of nonprofit sector infrastructure, what we find especially appealing is that the Single Portal Initiative will lead to more timely, accurate, and complete data and research on the nonprofit sector,” said __Nick Deychakiwsky__, Program Officer, Charles Stewart Mott Foundation.
+
+    __Bob Carlson__, President of MRFP said, “We deeply appreciate the support of the Charles Stewart Mott Foundation in our ongoing efforts to simplify registration for nonprofits. The Single Portal Initiative is an example of how states are seeking to offer efficient and effective service to the nonprofit sector. This funding will help lay the foundation in creating a tangible site for charities and fundraisers to register and file annual reports and renewals.”
+
+    A twelve state collaboration among Attorneys General, Secretaries of State and Consumer Protection offices, this effort will establish a single point of registration for nonprofit organizations and their professional fundraisers. The portal will maximize efficiency, data transparency, and information sharing by enabling compliance with registration requirements for all participating states without duplication of data entry. It will make the collected data available to the public in a searchable and interactive format.
+
+    To learn more about MRFP and The Single Portal Initiative, visit [http://www.mrfpinc.org](http://www.mrfpinc.org) or email at [info@mrfpinc.org](mailto:info@mrfpinc.org).
+- sys:
+    id: 5f6gGdYj040KQGMKayk2Kc
+  postTitle: NASCO Annual Conference
+  postAuthor:
+  - Brent Culberson
+  publishDate: !ruby/object:DateTime 2016-08-30 00:00:00.000000000 -05:00
+  postContent: |-
+    Registration is open for the National Association of State Charity Officers (NASCO) Annual meeting in Washington, D.C.  on October 17, 2016.  This year’s conference will be held at the Westin Washington, D.C. City Center and focus on “The Evolving World of State Charities Regulation.”
+
+    To register for the conference, click [HERE](http://www.naag.org/meetings-trainings/other/naagnasco-conference-2016/2015-naagnasco-conference-registration.php) and the agenda is available at [NASCO Public Day Schedule](http://www.naag.org/assets/redesign/files/meetings/DRAFT-Agenda-for-Website(2).pdf).
+
+    More from the conference site:
+
+    *This year’s NASCO Conference will be held in Washington D.C. at the Westin Washington Center and will run from October 17 – 19. Monday’s session is open to the public and provides an opportunity for representatives of the nonprofit sector to meet and participate in discussions with state regulators and vice versa. Tuesday and Wednesday are regulator only days and provide significant opportunity for state charity regulators to discuss the latest topics and learn from each other.*
+
+    *The theme for this year’s conference is “The Evolving World of State Charities Regulation.” The agenda for both the public day and the regulator only days will offer a mix of presentations by state regulators and speakers from the non-profit sector addressing this theme, including presentations on the increased development of non-traditional models of philanthropy and the development of new tools for the nonprofit sector.*
+
+    *The session on Monday will also include a discussion of the implications of the joint multistate action brought by the Federal Trade Commission and all fifty states against Cancer Fund of American and related entities. The session on Monday will end with a presentation from several of the members of the National Association of Attorneys General newly established Charities Committee.*
+
+    *We will conclude Tuesday’s regulator-only session with a networking social hour and dinner, followed by the NASCO business meeting. Finally, the regulator only portion of the conference will wrap up on Wednesday morning with a debriefing of the conference and suggestions for next year’s conference, and a discussion of NASCO activities, including potential multistate actions.*
+- sys:
+    id: 1z0FSjqAkY8WCsGoaUAe0U
+  postTitle: New States Joining MRFP
+  postAuthor:
+  - Brent Culberson
+  - Tania Ibanez
+  publishDate: !ruby/object:DateTime 2016-10-21 00:00:00.000000000 -05:00
+  postContent: |-
+    MRFP is pleased to announce that two new states have joined as members.  Mississippi and Georgia join California, Illinois, Alaska, Colorado, Connecticut, Hawaii, Massachusetts, Michigan, Missouri, New Hampshire, and Tennessee in the initial development of the Single Portal that will then be expanded to include all states that require registration.
+
+    MRFP members are state agencies (Attorneys General, Secretaries of State, or other agencies) with direct oversight responsibility for charitable assets and charitable solicitations.
